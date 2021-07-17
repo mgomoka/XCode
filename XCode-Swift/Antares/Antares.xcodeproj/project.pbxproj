@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6093EAD26A37953004AE2FB /* AntaresApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6093EAC26A37953004AE2FB /* AntaresApp.swift */; };
+		B6093EAF26A37953004AE2FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6093EAE26A37953004AE2FB /* ContentView.swift */; };
+		B6093EB126A37954004AE2FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6093EB026A37954004AE2FB /* Assets.xcassets */; };
+		B6093EB426A37954004AE2FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6093EB326A37954004AE2FB /* Preview Assets.xcassets */; };
+		B6093EC026A37954004AE2FB /* AntaresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6093EBF26A37954004AE2FB /* AntaresTests.swift */; };
+		B6093ECB26A37954004AE2FB /* AntaresUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6093ECA26A37954004AE2FB /* AntaresUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6093EBC26A37954004AE2FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6093EA126A37953004AE2FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6093EA826A37953004AE2FB;
+			remoteInfo = Antares;
+		};
+		B6093EC726A37954004AE2FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6093EA126A37953004AE2FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6093EA826A37953004AE2FB;
+			remoteInfo = Antares;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6093EA926A37953004AE2FB /* Antares.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Antares.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6093EAC26A37953004AE2FB /* AntaresApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AntaresApp.swift; sourceTree = "<group>"; };
+		B6093EAE26A37953004AE2FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B6093EB026A37954004AE2FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6093EB326A37954004AE2FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B6093EB526A37954004AE2FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6093EB626A37954004AE2FB /* Antares.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Antares.entitlements; sourceTree = "<group>"; };
+		B6093EBB26A37954004AE2FB /* AntaresTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AntaresTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6093EBF26A37954004AE2FB /* AntaresTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AntaresTests.swift; sourceTree = "<group>"; };
+		B6093EC126A37954004AE2FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6093EC626A37954004AE2FB /* AntaresUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AntaresUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6093ECA26A37954004AE2FB /* AntaresUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AntaresUITests.swift; sourceTree = "<group>"; };
+		B6093ECC26A37954004AE2FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6093EA626A37953004AE2FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6093EB826A37954004AE2FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6093EC326A37954004AE2FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6093EA026A37953004AE2FB = {
+			isa = PBXGroup;
+			children = (
+				B6093EAB26A37953004AE2FB /* Antares */,
+				B6093EBE26A37954004AE2FB /* AntaresTests */,
+				B6093EC926A37954004AE2FB /* AntaresUITests */,
+				B6093EAA26A37953004AE2FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6093EAA26A37953004AE2FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6093EA926A37953004AE2FB /* Antares.app */,
+				B6093EBB26A37954004AE2FB /* AntaresTests.xctest */,
+				B6093EC626A37954004AE2FB /* AntaresUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6093EAB26A37953004AE2FB /* Antares */ = {
+			isa = PBXGroup;
+			children = (
+				B6093EAC26A37953004AE2FB /* AntaresApp.swift */,
+				B6093EAE26A37953004AE2FB /* ContentView.swift */,
+				B6093EB026A37954004AE2FB /* Assets.xcassets */,
+				B6093EB526A37954004AE2FB /* Info.plist */,
+				B6093EB626A37954004AE2FB /* Antares.entitlements */,
+				B6093EB226A37954004AE2FB /* Preview Content */,
+			);
+			path = Antares;
+			sourceTree = "<group>";
+		};
+		B6093EB226A37954004AE2FB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B6093EB326A37954004AE2FB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B6093EBE26A37954004AE2FB /* AntaresTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6093EBF26A37954004AE2FB /* AntaresTests.swift */,
+				B6093EC126A37954004AE2FB /* Info.plist */,
+			);
+			path = AntaresTests;
+			sourceTree = "<group>";
+		};
+		B6093EC926A37954004AE2FB /* AntaresUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B6093ECA26A37954004AE2FB /* AntaresUITests.swift */,
+				B6093ECC26A37954004AE2FB /* Info.plist */,
+			);
+			path = AntaresUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6093EA826A37953004AE2FB /* Antares */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6093ECF26A37954004AE2FB /* Build configuration list for PBXNativeTarget "Antares" */;
+			buildPhases = (
+				B6093EA526A37953004AE2FB /* Sources */,
+				B6093EA626A37953004AE2FB /* Frameworks */,
+				B6093EA726A37953004AE2FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Antares;
+			productName = Antares;
+			productReference = B6093EA926A37953004AE2FB /* Antares.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6093EBA26A37954004AE2FB /* AntaresTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6093ED226A37954004AE2FB /* Build configuration list for PBXNativeTarget "AntaresTests" */;
+			buildPhases = (
+				B6093EB726A37954004AE2FB /* Sources */,
+				B6093EB826A37954004AE2FB /* Frameworks */,
+				B6093EB926A37954004AE2FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6093EBD26A37954004AE2FB /* PBXTargetDependency */,
+			);
+			name = AntaresTests;
+			productName = AntaresTests;
+			productReference = B6093EBB26A37954004AE2FB /* AntaresTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6093EC526A37954004AE2FB /* AntaresUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6093ED526A37954004AE2FB /* Build configuration list for PBXNativeTarget "AntaresUITests" */;
+			buildPhases = (
+				B6093EC226A37954004AE2FB /* Sources */,
+				B6093EC326A37954004AE2FB /* Frameworks */,
+				B6093EC426A37954004AE2FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6093EC826A37954004AE2FB /* PBXTargetDependency */,
+			);
+			name = AntaresUITests;
+			productName = AntaresUITests;
+			productReference = B6093EC626A37954004AE2FB /* AntaresUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6093EA126A37953004AE2FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					B6093EA826A37953004AE2FB = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					B6093EBA26A37954004AE2FB = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = B6093EA826A37953004AE2FB;
+					};
+					B6093EC526A37954004AE2FB = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = B6093EA826A37953004AE2FB;
+					};
+				};
+			};
+			buildConfigurationList = B6093EA426A37953004AE2FB /* Build configuration list for PBXProject "Antares" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6093EA026A37953004AE2FB;
+			productRefGroup = B6093EAA26A37953004AE2FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6093EA826A37953004AE2FB /* Antares */,
+				B6093EBA26A37954004AE2FB /* AntaresTests */,
+				B6093EC526A37954004AE2FB /* AntaresUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6093EA726A37953004AE2FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6093EB426A37954004AE2FB /* Preview Assets.xcassets in Resources */,
+				B6093EB126A37954004AE2FB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6093EB926A37954004AE2FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6093EC426A37954004AE2FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6093EA526A37953004AE2FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6093EAF26A37953004AE2FB /* ContentView.swift in Sources */,
+				B6093EAD26A37953004AE2FB /* AntaresApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6093EB726A37954004AE2FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6093EC026A37954004AE2FB /* AntaresTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6093EC226A37954004AE2FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6093ECB26A37954004AE2FB /* AntaresUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6093EBD26A37954004AE2FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6093EA826A37953004AE2FB /* Antares */;
+			targetProxy = B6093EBC26A37954004AE2FB /* PBXContainerItemProxy */;
+		};
+		B6093EC826A37954004AE2FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6093EA826A37953004AE2FB /* Antares */;
+			targetProxy = B6093EC726A37954004AE2FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B6093ECD26A37954004AE2FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6093ECE26A37954004AE2FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B6093ED026A37954004AE2FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Antares/Antares.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Antares/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Antares/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mgomoka.Antares;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B6093ED126A37954004AE2FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Antares/Antares.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Antares/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Antares/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mgomoka.Antares;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B6093ED326A37954004AE2FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AntaresTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mgomoka.AntaresTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Antares.app/Contents/MacOS/Antares";
+			};
+			name = Debug;
+		};
+		B6093ED426A37954004AE2FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AntaresTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mgomoka.AntaresTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Antares.app/Contents/MacOS/Antares";
+			};
+			name = Release;
+		};
+		B6093ED626A37954004AE2FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AntaresUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mgomoka.AntaresUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Antares;
+			};
+			name = Debug;
+		};
+		B6093ED726A37954004AE2FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AntaresUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mgomoka.AntaresUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Antares;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6093EA426A37953004AE2FB /* Build configuration list for PBXProject "Antares" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6093ECD26A37954004AE2FB /* Debug */,
+				B6093ECE26A37954004AE2FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6093ECF26A37954004AE2FB /* Build configuration list for PBXNativeTarget "Antares" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6093ED026A37954004AE2FB /* Debug */,
+				B6093ED126A37954004AE2FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6093ED226A37954004AE2FB /* Build configuration list for PBXNativeTarget "AntaresTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6093ED326A37954004AE2FB /* Debug */,
+				B6093ED426A37954004AE2FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6093ED526A37954004AE2FB /* Build configuration list for PBXNativeTarget "AntaresUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6093ED626A37954004AE2FB /* Debug */,
+				B6093ED726A37954004AE2FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6093EA126A37953004AE2FB /* Project object */;
+}
